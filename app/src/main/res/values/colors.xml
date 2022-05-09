@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tema_1">#FFC273D9</color>
+    <color name="tema_2">#FF8268D9</color>
+    <color name="tema_3">#FF5D82D9</color>
+    <color name="tema_4">#FFA7D952</color>
+    <color name="tema_grey">#FF3E3E3E</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
