@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/tema_2"
+        android:fontFamily="@font/inter"
+        android:text="@string/stringEntrar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:background="@color/tema_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtEmailLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/inter"
+        android:text="@string/stringEmail"
+        android:textColor="@color/tema_grey"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLogin" />
+
+
+    <TextView
+        android:id="@+id/txtSenhaLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/inter"
+        android:text="@string/stringSenha"
+        android:textColor="@color/tema_grey"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoEmailLogin" />
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="@string/stringLogin"
+        android:textColor="@color/tema_2"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVoltarActivityLogin" />
+
+    <ImageView
+        android:id="@+id/btnVoltarActivityLogin"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_left" />
+
+    <EditText
+        android:id="@+id/campoEmailLogin"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/rounded_background"
+        android:drawableStart="@drawable/arroba"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/stringDigEmail"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/tema_grey"
+        android:textColorHighlight="@color/tema_2"
+        android:textColorHint="@color/tema_grey_claro"
+        android:textColorLink="@color/tema_2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmailLogin" />
+
+    <EditText
+        android:id="@+id/campoSenhaLogin"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/rounded_background"
+        android:drawableStart="@drawable/padlock"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/stringDigSenha"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/tema_grey"
+        android:textColorHighlight="@color/tema_2"
+        android:textColorHint="@color/tema_grey_claro"
+        android:textColorLink="@color/tema_2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSenhaLogin" />
+</androidx.constraintlayout.widget.ConstraintLayout>

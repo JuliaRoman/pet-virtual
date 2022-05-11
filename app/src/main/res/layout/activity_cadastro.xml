@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CadastroActivity">
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/tema_2"
+        android:fontFamily="@font/inter"
+        android:text="@string/stringEntrar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:background="@color/tema_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtEmailCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/inter"
+        android:text="@string/stringEmail"
+        android:textColor="@color/tema_grey"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCadastrar" />
+
+    <TextView
+        android:id="@+id/txtNomeCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/inter"
+        android:text="@string/stringNome"
+        android:textColor="@color/tema_grey"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoEmailCadastro" />
+
+    <TextView
+        android:id="@+id/txtSenhaCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/inter"
+        android:text="@string/stringSenha"
+        android:textColor="@color/tema_grey"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoNomeCadastro" />
+
+    <TextView
+        android:id="@+id/txtCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="@string/stringCadastro"
+        android:textColor="@color/tema_2"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVoltarActivityCadastro" />
+
+    <ImageView
+        android:id="@+id/btnVoltarActivityCadastro"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_left" />
+
+    <EditText
+        android:id="@+id/campoEmailCadastro"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/rounded_background"
+        android:ems="10"
+        android:hint="@string/stringDigEmail"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/tema_grey"
+        android:textColorHighlight="@color/tema_2"
+        android:textColorHint="@color/tema_grey_claro"
+        android:textColorLink="@color/tema_2"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/arroba"
+        android:drawablePadding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmailCadastro" />
+
+    <EditText
+        android:id="@+id/campoNomeCadastro"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/rounded_background"
+        android:drawableStart="@drawable/user"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/stringDigNome"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/tema_grey"
+        android:textColorHighlight="@color/tema_2"
+        android:textColorHint="@color/tema_grey_claro"
+        android:textColorLink="@color/tema_2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeCadastro" />
+
+    <EditText
+        android:id="@+id/campoSenhaCadastro"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/rounded_background"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/stringDigSenha"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/padlock"
+        android:padding="10dp"
+        android:textColor="@color/tema_grey"
+        android:textColorHighlight="@color/tema_2"
+        android:textColorHint="@color/tema_grey_claro"
+        android:textColorLink="@color/tema_2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSenhaCadastro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
