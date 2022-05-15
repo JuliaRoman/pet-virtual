@@ -2,12 +2,17 @@
     <string name="app_name">Pet Virtual</string>
     <string name="stringBemVindo">Bem vindo ao</string>
     <string name="stringLogin">Login</string>
-    <string name="stringEntrar">Entrar</string>
-    <string name="stringCadastro">Cadastrar -se</string>
+    <string name="stringProx">Próximo</string>
+    <string name="stringCadastro">Cadastrar-se</string>
     <string name="stringDigEmail">Digite seu e-mail</string>
     <string name="stringDigNome">Digite seu nome</string>
     <string name="stringDigSenha">Digite uma senha</string>
     <string name="stringEmail">E-mail</string>
     <string name="stringNome">Seu nome</string>
     <string name="stringSenha">Sua senha</string>
+    <string name="stringCasoTenhaConta">Já possui uma conta?</string>
+    <string name="stringCasoNaoTenhaConta">Não possui conta?</string>
+    <string name="stringCadastroPet">Nomeie seu Pet!</string>
+    <string name="stringNomePet">Nome do Pet</string>
+    <string name="stringDigNomePet">Digite o nome do seu pet</string>
 </resources>

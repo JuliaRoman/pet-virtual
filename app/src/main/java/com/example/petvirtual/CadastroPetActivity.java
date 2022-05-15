@@ -7,34 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 
-public class LoginActivity extends AppCompatActivity {
+public class CadastroPetActivity extends AppCompatActivity {
 
     private ImageView btnVoltar;
-    private TextView btnCadastro;
     private Button btnMenuPrincipal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_cadastro_pet);
         getSupportActionBar().hide();
 
-        btnVoltar = findViewById(R.id.btnVoltarActivityLogin);
-        btnCadastro = findViewById(R.id.btnCadastroFromLogin);
-        btnMenuPrincipal= findViewById(R.id.btnLogin);
+        btnVoltar = findViewById(R.id.btnVoltarMainFromPet);
+        btnMenuPrincipal = findViewById(R.id.btnCadastraPet);
 
         btnVoltar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(i);
-                finish();
-            }
-        });
-
-        btnCadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), CadastroActivity.class);

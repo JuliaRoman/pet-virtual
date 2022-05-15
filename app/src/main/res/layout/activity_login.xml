@@ -4,20 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/inter"
+        android:text="@string/stringCasoNaoTenhaConta"
+        android:textColor="@color/tema_grey_claro"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/btnCadastroFromLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="@string/stringCadastro"
+        android:textColor="@color/tema_4"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2" />
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="300dp"
         android:layout_height="55dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@color/tema_2"
         android:fontFamily="@font/inter"
-        android:text="@string/stringEntrar"
+        android:text="@string/stringProx"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:background="@color/tema_2"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
