@@ -14,6 +14,7 @@ public class LoginActivity extends AppCompatActivity {
     private ImageView btnVoltar;
     private TextView btnCadastro;
     private Button btnMenuPrincipal;
+    private ImageView btnIdioma;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,8 @@ public class LoginActivity extends AppCompatActivity {
         btnVoltar = findViewById(R.id.btnVoltarActivityLogin);
         btnCadastro = findViewById(R.id.btnCadastroFromLogin);
         btnMenuPrincipal= findViewById(R.id.btnLogin);
+        btnIdioma = findViewById(R.id.btnIdiomaLogin);
+
 
         btnVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,6 +49,16 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), MenuActivity.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+        btnIdioma.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), IdiomaActivity.class);
+                i.putExtra("TelaAnterior", "Login");
                 startActivity(i);
                 finish();
             }

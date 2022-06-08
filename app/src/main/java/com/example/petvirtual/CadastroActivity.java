@@ -15,6 +15,7 @@ public class CadastroActivity extends AppCompatActivity {
     private ImageView btnVoltar;
     private TextView btnLogin;
     private Button btnCadastroPet;
+    private ImageView btnIdioma;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class CadastroActivity extends AppCompatActivity {
         btnVoltar = findViewById(R.id.btnVoltarActivityCadastro);
         btnLogin = findViewById(R.id.btnLoginFromCadastro);
         btnCadastroPet = findViewById(R.id.btnCadastrar);
+        btnIdioma = findViewById(R.id.btnIdiomaCadastro);
 
         btnVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,6 +49,16 @@ public class CadastroActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), CadastroPetActivity.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+        btnIdioma.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), IdiomaActivity.class);
+                i.putExtra("TelaAnterior", "Cadastro");
                 startActivity(i);
                 finish();
             }

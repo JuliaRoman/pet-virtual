@@ -17,6 +17,10 @@
     <string name="stringDigNomePet">Digite o nome do seu pet</string>
     <string name="stringNotificacoes">Notificações</string>
     <string name="stringUser">Usuário</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="stringIdiomas">Idiomas</string>
+    <string name="stringPt">Português</string>
+    <string name="stringIn">Inglês</string>
+    <string name="stringEs">Espanhol</string>
+    <string name="stringFr">Francês</string>
+    <string name="stringIt">Italiano</string>
 </resources>

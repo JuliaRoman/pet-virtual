@@ -7,6 +7,16 @@
     android:background="@color/white"
     tools:context=".CadastroActivity">
 
+    <ImageView
+        android:id="@+id/btnIdiomaCadastro"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icn_translate" />
+
     <Button
         android:id="@+id/btnCadastrar"
         android:layout_width="300dp"

@@ -7,6 +7,16 @@
     android:background="@color/white"
     tools:context=".LoginActivity">
 
+    <ImageView
+        android:id="@+id/btnIdiomaLogin"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icn_translate" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
