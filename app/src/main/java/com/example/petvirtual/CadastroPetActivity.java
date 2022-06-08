@@ -17,7 +17,6 @@ public class CadastroPetActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro_pet);
-        getSupportActionBar().hide();
 
         btnVoltar = findViewById(R.id.btnVoltarMainFromPet);
         btnMenuPrincipal = findViewById(R.id.btnCadastraPet);

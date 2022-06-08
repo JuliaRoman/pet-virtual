@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/btnHome">
+
+    <fragment
+        android:id="@+id/btnHome"
+        android:name="com.example.petvirtual.fragments.PetFragment"
+        android:label="fragment_pet"
+        tools:layout="@layout/fragment_pet" />
+    <fragment
+        android:id="@+id/btnUser"
+        android:name="com.example.petvirtual.fragments.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/btnNotification"
+        android:name="com.example.petvirtual.fragments.NotiFragment"
+        android:label="fragment_noti"
+        tools:layout="@layout/fragment_noti" />
+</navigation>

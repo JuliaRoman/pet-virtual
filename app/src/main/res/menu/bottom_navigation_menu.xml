@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btnUser"
+        android:enabled="true"
+        android:icon="@drawable/icn_menu_user"
+        android:title="@string/stringUser"/>
+    <item
+        android:id="@+id/btnHome"
+        android:enabled="true"
+        android:icon="@drawable/icn_menu_pet"
+        android:title="@string/app_name"
+        android:visible="true"
+        />
+
+    <item
+        android:id="@+id/btnNotification"
+        android:enabled="true"
+        android:icon="@drawable/icn_menu_notification"
+        android:title="@string/stringNotificacoes"
+        />
+</menu>
