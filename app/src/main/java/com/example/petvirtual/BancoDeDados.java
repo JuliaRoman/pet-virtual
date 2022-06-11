@@ -97,18 +97,16 @@ public class BancoDeDados extends SQLiteOpenHelper {
     @SuppressLint("Range")
     public boolean loginUsuario(Usuario usuario){
         SQLiteDatabase banco = getWritableDatabase();
-
+        int result=0;
         Cursor c = banco.rawQuery("SELECT * FROM usuario WHERE email_usuario = ' " + usuario.getEmail() + " ' ", null);
-
-        while (c.moveToNext()){
-            if(usuario.getEmail().equals(c.getString(c.getColumnIndex("email_usuario")))){
-                if(usuario.getSenha().equals(c.getString(c.getColumnIndex("senha_usuario")))){
-                    return true;
-                }
-            }
+        if (usuario.getSenha().equals(c.getString(c.getColumnIndex("senha_usuario")))){
+            banco.close();
+            return true;
+        } else {
+            banco.close();
+            return false;
         }
 
-        return false;
     }
 
 

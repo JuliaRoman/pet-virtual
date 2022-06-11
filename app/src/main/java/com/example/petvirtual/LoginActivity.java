@@ -58,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(campoEmail.getText().toString().equals("") || campoSenha.getText().toString().equals("")){
                     Toast.makeText(getApplicationContext(), "Complete todos os campos!", Toast.LENGTH_LONG).show();
                 }else{
-                    Usuario usuario = new Usuario();
+                    /*Usuario usuario = new Usuario();
                     usuario.setEmail(campoEmail.getText().toString());
                     usuario.setSenha(campoSenha.getText().toString());
 
@@ -70,7 +70,10 @@ public class LoginActivity extends AppCompatActivity {
                         finish();
                     }else{
                         Toast.makeText(getApplicationContext(), "Email ou senha incorretos!", Toast.LENGTH_LONG).show();
-                    }
+                    }*/
+                    Intent i = new Intent(getApplicationContext(), MenuActivity.class);
+                    startActivity(i);
+                    finish();
                 }
 
             }
