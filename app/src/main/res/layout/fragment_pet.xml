@@ -39,7 +39,7 @@
             android:layout_width="250dp"
             android:layout_height="300dp"
             android:layout_marginTop="30dp"
-            android:src="@drawable/pet_feliz"
+            android:src="@drawable/pet_sujo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtBemVindo2" />
@@ -55,7 +55,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imgPet" />
 
         <ImageView
-            android:id="@+id/imageView8"
+            android:id="@+id/imgLimpeza"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_marginTop="10dp"
@@ -65,14 +65,14 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
         <ImageView
-            android:id="@+id/imageView9"
+            android:id="@+id/imgBrincar"
             android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="35dp"
             android:src="@drawable/barra_25"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+            app:layout_constraintTop_toBottomOf="@+id/imgLimpeza" />
 
         <ImageView
             android:id="@+id/imageView10"
@@ -82,7 +82,7 @@
             android:layout_marginEnd="35dp"
             android:src="@drawable/barra_75"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+            app:layout_constraintTop_toBottomOf="@+id/imgBrincar" />
 
         <ImageView
             android:id="@+id/imageView13"
@@ -105,7 +105,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
         <ImageView
-            android:id="@+id/imageView15"
+            android:id="@+id/btnBanho"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="30dp"
@@ -115,7 +115,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
         <ImageView
-            android:id="@+id/imageView16"
+            android:id="@+id/btnBrincar"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginTop="30dp"
@@ -169,7 +169,7 @@
             android:layout_marginTop="10dp"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
-            android:text="@string/stringStatusBrincar"
+            android:text="@string/stringStatusDiversao"
             android:textColor="@color/tema_2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
@@ -196,7 +196,7 @@
             android:text="@string/stringStatusBanho"
             android:textColor="@color/tema_grey_claro"
             app:layout_constraintStart_toEndOf="@+id/textView3"
-            app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+            app:layout_constraintTop_toBottomOf="@+id/btnBanho" />
 
         <TextView
             android:id="@+id/textView6"
@@ -207,7 +207,7 @@
             android:text="@string/stringStatusBrincar"
             android:textColor="@color/tema_grey_claro"
             app:layout_constraintStart_toEndOf="@+id/textView5"
-            app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+            app:layout_constraintTop_toBottomOf="@+id/btnBrincar" />
 
         <TextView
             android:id="@+id/textView7"

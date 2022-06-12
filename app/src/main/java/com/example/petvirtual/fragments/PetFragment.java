@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.example.petvirtual.IdiomaActivity;
 import com.example.petvirtual.R;
@@ -28,6 +29,10 @@ public class PetFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    private ImageView btnIdioma, btnBanho, btnBrincar, imgPet, imgLimpeza, imgBrincar;
+
+    protected View vista;
 
     public PetFragment() {
         // Required empty public constructor
@@ -65,6 +70,39 @@ public class PetFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_pet, container, false);
+        vista = inflater.inflate(R.layout.fragment_pet, container, false);
+
+        btnIdioma = (ImageView) vista.findViewById(R.id.btnIdiomaPet);
+        btnBanho = (ImageView) vista.findViewById(R.id.btnBanho);
+        btnBrincar = (ImageView) vista.findViewById(R.id.btnBrincar);
+        imgPet = (ImageView) vista.findViewById(R.id.imgPet);
+        imgLimpeza = (ImageView) vista.findViewById(R.id.imgLimpeza);
+        imgBrincar = (ImageView) vista.findViewById(R.id.imgBrincar);
+
+        btnBanho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgPet.setImageResource(R.drawable.pet_triste);
+                imgLimpeza.setImageResource(R.drawable.barra_75);
+            }
+        });
+
+        btnBrincar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imgPet.setImageResource(R.drawable.pet_feliz);
+                imgBrincar.setImageResource(R.drawable.barra_50);
+            }
+        });
+
+        btnIdioma.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(), IdiomaActivity.class);
+                i.putExtra("TelaAnterior", "Menu");
+                startActivity(i);
+            }
+        });
+        return vista;
     }
 }
