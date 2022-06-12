@@ -18,14 +18,14 @@
         android:textColor="@color/tema_grey"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btnIdiomaMain" />
 
     <TextView
         android:id="@+id/txtBemVindo3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="190dp"
         android:fontFamily="@font/inter_extrabold"
         android:text="@string/app_name"
         android:textColor="@color/tema_2"
@@ -69,8 +69,8 @@
         android:id="@+id/btnIdiomaMain"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/icn_translate" />

@@ -8,16 +8,124 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/white">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txtBemVindo2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pet Virtual"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="Meu Pet Virtual"
+            android:textColor="@color/tema_2"
+            android:textSize="25sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/btnIdiomaPet"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icn_translate" />
+
+        <ImageView
+            android:id="@+id/imgPet"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/pet_feliz"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnIdiomaPet" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/barra_100"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgPet" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/barra_50"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/barra_25"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/barra_75"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/icn_alimentar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="60dp"
+            android:src="@drawable/icn_dormir"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/icn_banho"
+            app:layout_constraintStart_toEndOf="@+id/imageView13"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/icn_brincar"
+            app:layout_constraintEnd_toStartOf="@+id/imageView14"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
