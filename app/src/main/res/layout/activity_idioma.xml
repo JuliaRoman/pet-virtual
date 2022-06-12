@@ -55,7 +55,7 @@
         app:srcCompat="@drawable/united_states" />
 
     <TextView
-        android:id="@+id/txtPt"
+        android:id="@+id/txtNotBanho"
         android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -67,7 +67,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnPt" />
 
     <TextView
-        android:id="@+id/txtEs"
+        android:id="@+id/txtNotFome"
         android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -79,7 +79,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnEs" />
 
     <TextView
-        android:id="@+id/txtEs3"
+        android:id="@+id/txtNotSono"
         android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -103,7 +103,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnIt" />
 
     <TextView
-        android:id="@+id/txEn"
+        android:id="@+id/txtNotDivertir"
         android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -122,7 +122,7 @@
         android:layout_marginTop="60dp"
         android:onClick="idiomaES"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPt"
+        app:layout_constraintTop_toBottomOf="@+id/txtNotBanho"
         app:srcCompat="@drawable/spain" />
 
     <ImageView
@@ -133,7 +133,7 @@
         android:layout_marginTop="60dp"
         android:onClick="idiomaIT"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtEs"
+        app:layout_constraintTop_toBottomOf="@+id/txtNotFome"
         app:srcCompat="@drawable/italy" />
 
     <ImageView
@@ -144,6 +144,6 @@
         android:layout_marginEnd="60dp"
         android:onClick="idiomaFR"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txEn"
+        app:layout_constraintTop_toBottomOf="@+id/txtNotDivertir"
         app:srcCompat="@drawable/france" />
 </androidx.constraintlayout.widget.ConstraintLayout>

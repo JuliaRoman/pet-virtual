@@ -10,17 +10,82 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/white">
 
         <TextView
-            android:id="@+id/textVhjgfiew5"
+            android:id="@+id/txtIdioma"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Notificações"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="@string/stringIdiomas"
+            android:textColor="@color/tema_2"
+            android:textSize="34sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/btnVoltarActivityLanguage" />
+
+        <ImageView
+            android:id="@+id/btnVoltarActivityLanguage"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/arrow_left" />
+
+        <TextView
+            android:id="@+id/txtNotBanho"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="64dp"
+            android:text="@string/stringNotBanho"
+            android:textAlignment="viewStart"
+            android:textColor="@color/tema_grey_claro"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtIdioma" />
+
+        <TextView
+            android:id="@+id/txtNotFome"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="52dp"
+            android:text="@string/stringNotFome"
+            android:textAlignment="viewStart"
+            android:textColor="@color/tema_grey_claro"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNotDivertir" />
+
+        <TextView
+            android:id="@+id/txtNotSono"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="52dp"
+            android:text="@string/stringNotSono"
+            android:textAlignment="viewStart"
+            android:textColor="@color/tema_grey_claro"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNotFome" />
+
+        <TextView
+            android:id="@+id/txtNotDivertir"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="52dp"
+            android:text="@string/stringNotDivertir"
+            android:textAlignment="viewStart"
+            android:textColor="@color/tema_grey_claro"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNotBanho" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
