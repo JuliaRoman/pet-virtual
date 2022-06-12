@@ -15,10 +15,10 @@
             android:id="@+id/txtBemVindo2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="60dp"
+            android:layout_marginStart="50dp"
             android:layout_marginTop="60dp"
             android:fontFamily="@font/inter_extrabold"
-            android:text="Meu Pet Virtual"
+            android:text="@string/stringMeuPet"
             android:textColor="@color/tema_2"
             android:textSize="25sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +29,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="60dp"
-            android:layout_marginEnd="60dp"
+            android:layout_marginEnd="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/icn_translate" />
@@ -42,49 +42,46 @@
             android:src="@drawable/pet_feliz"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnIdiomaPet" />
+            app:layout_constraintTop_toBottomOf="@+id/txtBemVindo2" />
 
         <ImageView
             android:id="@+id/imageView6"
-            android:layout_width="280dp"
+            android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_marginTop="30dp"
+            android:layout_marginEnd="35dp"
             android:src="@drawable/barra_100"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imgPet" />
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="280dp"
+            android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
             android:src="@drawable/barra_50"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
         <ImageView
             android:id="@+id/imageView9"
-            android:layout_width="280dp"
+            android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
             android:src="@drawable/barra_25"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
         <ImageView
             android:id="@+id/imageView10"
-            android:layout_width="280dp"
+            android:layout_width="270dp"
             android:layout_height="35dp"
             android:layout_marginTop="10dp"
+            android:layout_marginEnd="35dp"
             android:src="@drawable/barra_75"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
         <ImageView
@@ -126,6 +123,102 @@
             android:src="@drawable/icn_brincar"
             app:layout_constraintEnd_toStartOf="@+id/imageView14"
             app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/stringStatusAlimentar"
+            android:textColor="@color/tema_grey_claro"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/stringStatusFome"
+            android:textColor="@color/tema_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgPet" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/stringStatusLimpeza"
+            android:textColor="@color/tema_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/stringStatusBrincar"
+            android:textColor="@color/tema_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/stringStatusSono"
+            android:textColor="@color/tema_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/stringStatusBanho"
+            android:textColor="@color/tema_grey_claro"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/stringStatusBrincar"
+            android:textColor="@color/tema_grey_claro"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/stringStatusDescansar"
+            android:textColor="@color/tema_grey_claro"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
