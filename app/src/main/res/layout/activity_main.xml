@@ -75,4 +75,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/icn_translate" />
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBemVindo3"
+        app:srcCompat="@drawable/logo_season_gems" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

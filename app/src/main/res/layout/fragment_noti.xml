@@ -20,7 +20,7 @@
             android:layout_marginStart="60dp"
             android:layout_marginTop="30dp"
             android:fontFamily="@font/inter_extrabold"
-            android:text="@string/stringIdiomas"
+            android:text="@string/stringNotificacoes"
             android:textColor="@color/tema_2"
             android:textSize="34sp"
             app:layout_constraintStart_toStartOf="parent"
