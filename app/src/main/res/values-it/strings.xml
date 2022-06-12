@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pet Virtual</string>
+    <string name="stringBemVindo">Benvenuti</string>
+    <string name="stringLogin">Login</string>
+    <string name="stringProx">Prossimo</string>
+    <string name="stringCadastro">Iscriviti</string>
+    <string name="stringDigEmail">Digita la tua e-mail</string>
+    <string name="stringDigNome">Scrivi il tuo nome</string>
+    <string name="stringDigSenha">Inserisci una password</string>
+    <string name="stringEmail">E-mail</string>
+    <string name="stringNome">Il tuo nome</string>
+    <string name="stringSenha">La tua password</string>
+    <string name="stringCasoTenhaConta">Hai già un account?</string>
+    <string name="stringCasoNaoTenhaConta">Non hai un account?</string>
+    <string name="stringCadastroPet">Dai un nome al tuo animale!</string>
+    <string name="stringNomePet">Nome del animale</string>
+    <string name="stringDigNomePet">Inserisci il nome del tuo animale</string>
+    <string name="stringNotificacoes">Notifiche</string>
+    <string name="stringUser">Notifiche</string>
+    <string name="stringIdiomas">Le lingue</string>
+    <string name="stringPt">Portoghese</string>
+    <string name="stringIn">Inglese</string>
+    <string name="stringFr">Francese</string>
+    <string name="stringEs">Spagnolo</string>
+    <string name="stringIt">Italiano</string>
+    <string name="stringMeuPet">Il Mio Animale Domestico Virtuale</string>
+    <string name="stringStatusFome">Affamato</string>
+    <string name="stringStatusLimpeza">Pulizia</string>
+    <string name="stringStatusDiversao">Divertimento</string>
+    <string name="stringStatusSono">Sonno</string>
+    <string name="stringStatusAlimentar">Alimentare</string>
+    <string name="stringStatusBanho">Fai una doccia</string>
+    <string name="stringStatusBrincar">Giocare</string>
+    <string name="stringStatusDescansar">Riposo</string>
+    <string name="stringNotFome">Ciao..., il tuo animale domestico ha fame, dagli da mangiare</string>
+    <string name="stringNotSono">Ciao... il tuo animale ha sonno, mettilo a riposo</string>
+    <string name="stringNotBanho">Ciao... il tuo animale domestico ha bisogno di un bagno</string>
+    <string name="stringNotDivertir">Ciao... il tuo animale domestico ha bisogno di divertirsi</string>
+    <string name="stringMeuPerfil">Il mio profilo</string>
+    <string name="stringPetPerfil">Profilo dell\'animale</string>
+    <string name="stringExcluirPet">Elimina e crea un nuovo animale</string>
+    <string name="stringSair">Uscita</string>
+</resources>

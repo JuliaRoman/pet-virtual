@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vitual Pet</string>
+    <string name="stringIt">Italian</string>
+    <string name="stringLogin">Login</string>
+    <string name="stringProx">Next</string>
+    <string name="stringCadastro">Register</string>
+    <string name="stringDigEmail">Enter your email</string>
+    <string name="stringDigNome">Enter your name</string>
+    <string name="stringDigSenha">Enter your password</string>
+    <string name="stringEmail">Email</string>
+    <string name="stringNome">Your name</string>
+    <string name="stringSenha">Your password</string>
+    <string name="stringCasoTenhaConta">Already have an account?</string>
+    <string name="stringCasoNaoTenhaConta">Don\'t have an account?</string>
+    <string name="stringCadastroPet">Name your pet!</string>
+    <string name="stringNomePet">Pet\'s name</string>
+    <string name="stringDigNomePet">Enter your pet\'s name</string>
+    <string name="stringNotificacoes">Notifications</string>
+    <string name="stringUser">User</string>
+    <string name="stringIdiomas">Languages</string>
+    <string name="stringPt">Portuguese</string>
+    <string name="stringIn">English</string>
+    <string name="stringEs">Spanish</string>
+    <string name="stringFr">French</string>
+    <string name="stringBemVindo">"Welcome to the "</string>
+    <string name="stringMeuPet">My Virtual Pet</string>
+    <string name="stringStatusFome">Hungry</string>
+    <string name="stringStatusLimpeza">Cleaning</string>
+    <string name="stringStatusDiversao">Fun</string>
+    <string name="stringStatusSono">Sleep</string>
+    <string name="stringStatusAlimentar">Feed</string>
+    <string name="stringStatusBanho">Give a shower</string>
+    <string name="stringStatusBrincar">Play</string>
+    <string name="stringStatusDescansar">Rest</string>
+    <string name="stringNotFome">Hi..., your pet is hungry, feed him!</string>
+    <string name="stringNotSono">Hi..., your pet is sleepy, put him to rest!</string>
+    <string name="stringNotBanho">Hi..., your pet needs a bath!</string>
+    <string name="stringNotDivertir">Hi..., your pet needs to have fun</string>
+    <string name="stringSair">Exit</string>
+    <string name="stringExcluirPet">Delete and create a new Pet</string>
+    <string name="stringPetPerfil">Pet\'s profile</string>
+    <string name="stringMeuPerfil">My profile</string>
+</resources>

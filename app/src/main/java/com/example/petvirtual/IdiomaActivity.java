@@ -2,10 +2,16 @@ package com.example.petvirtual;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
+import java.util.Locale;
 
 public class IdiomaActivity extends AppCompatActivity {
 
@@ -55,5 +61,96 @@ public class IdiomaActivity extends AppCompatActivity {
             }
         });
 
+    };
+
+    public void idiomaPT(View v){
+        Locale idioma = new Locale("pt-rBR");
+        Locale.setDefault(idioma);
+
+        Context context = this;
+        Resources res = context.getResources();
+        Configuration config = new Configuration(res.getConfiguration());
+
+        config.setLocale(idioma);
+        res.updateConfiguration(config, res.getDisplayMetrics());
+
+        SharedPreferences.Editor dados = getSharedPreferences("fatec", MODE_PRIVATE).edit();
+        dados.putString("idioma","pt-rBR");
+        dados.commit();
+
+        recreate();
     }
+
+    public void idiomaEN(View v){
+        Locale idioma = new Locale("en");
+        Locale.setDefault(idioma);
+
+        Context context = this;
+        Resources res = context.getResources();
+        Configuration config = new Configuration(res.getConfiguration());
+
+        config.setLocale(idioma);
+        res.updateConfiguration(config, res.getDisplayMetrics());
+
+        SharedPreferences.Editor dados = getSharedPreferences("fatec", MODE_PRIVATE).edit();
+        dados.putString("idioma","en");
+        dados.commit();
+
+        recreate();
+    }
+
+    public void idiomaES(View v){
+        Locale idioma = new Locale("es");
+        Locale.setDefault(idioma);
+
+        Context context = this;
+        Resources res = context.getResources();
+        Configuration config = new Configuration(res.getConfiguration());
+
+        config.setLocale(idioma);
+        res.updateConfiguration(config, res.getDisplayMetrics());
+
+        SharedPreferences.Editor dados = getSharedPreferences("fatec", MODE_PRIVATE).edit();
+        dados.putString("idioma","es");
+        dados.commit();
+
+        recreate();
+    }
+
+    public void idiomaFR(View v){
+        Locale idioma = new Locale("fr");
+        Locale.setDefault(idioma);
+
+        Context context = this;
+        Resources res = context.getResources();
+        Configuration config = new Configuration(res.getConfiguration());
+
+        config.setLocale(idioma);
+        res.updateConfiguration(config, res.getDisplayMetrics());
+
+        SharedPreferences.Editor dados = getSharedPreferences("fatec", MODE_PRIVATE).edit();
+        dados.putString("idioma","fr");
+        dados.commit();
+
+        recreate();
+    }
+
+    public void idiomaIT(View v){
+        Locale idioma = new Locale("it");
+        Locale.setDefault(idioma);
+
+        Context context = this;
+        Resources res = context.getResources();
+        Configuration config = new Configuration(res.getConfiguration());
+
+        config.setLocale(idioma);
+        res.updateConfiguration(config, res.getDisplayMetrics());
+
+        SharedPreferences.Editor dados = getSharedPreferences("fatec", MODE_PRIVATE).edit();
+        dados.putString("idioma","it");
+        dados.commit();
+
+        recreate();
+    }
+
 }

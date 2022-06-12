@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pet Virtual</string>
+    <string name="stringBemVindo">Bienvenido a</string>
+    <string name="stringProx">Siguiente</string>
+    <string name="stringLogin">Iniciar sesión</string>
+    <string name="stringCadastro">Registrarse</string>
+    <string name="stringDigEmail">Introduce tu correo electrónico</string>
+    <string name="stringDigNome">Introduzca su nombre</string>
+    <string name="stringDigSenha">Ingresa tu contraseña</string>
+    <string name="stringEmail">Correo electrónico</string>
+    <string name="stringNome">Su nombre</string>
+    <string name="stringSenha">Su contraseña</string>
+    <string name="stringCasoTenhaConta">¿Ya tienes una cuenta?</string>
+    <string name="stringCasoNaoTenhaConta">¿No tienes una cuenta?</string>
+    <string name="stringCadastroPet">¡Nombra a tu mascota!</string>
+    <string name="stringNomePet">Nombre de mascota</string>
+    <string name="stringDigNomePet">Introduce el nombre de tu mascota</string>
+    <string name="stringNotificacoes">Notificaciones</string>
+    <string name="stringUser">Usuario</string>
+    <string name="stringIdiomas">Idiomas</string>
+    <string name="stringPt">Portugués</string>
+    <string name="stringIn">Inglés</string>
+    <string name="stringEs">Español</string>
+    <string name="stringFr">Francés</string>
+    <string name="stringIt">Italiano</string>
+    <string name="stringMeuPet">Mi Mascota Virtual</string>
+    <string name="stringStatusFome">Hambriento</string>
+    <string name="stringStatusLimpeza">Limpieza</string>
+    <string name="stringStatusDiversao">Divertido</string>
+    <string name="stringStatusSono">Dormir</string>
+    <string name="stringStatusAlimentar">Alimentación</string>
+    <string name="stringStatusBanho">Bañar</string>
+    <string name="stringStatusBrincar">Jugar</string>
+    <string name="stringStatusDescansar">Descanso</string>
+    <string name="stringNotFome">Hola..., tu mascota tiene hambre, dale de comer</string>
+    <string name="stringNotSono">Hola... tu mascota tiene sueño, ponlo a descansar</string>
+    <string name="stringNotBanho">Hola... tu mascota necesita un baño</string>
+    <string name="stringNotDivertir">Hola... tu mascota necesita divertirse</string>
+    <string name="stringMeuPerfil">Mi perfil</string>
+    <string name="stringPetPerfil">Perfil de mascota</string>
+    <string name="stringExcluirPet">Eliminar y crear nueva mascota</string>
+    <string name="stringSair">Salir</string>
+</resources>

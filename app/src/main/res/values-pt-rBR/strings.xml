@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Pet Virtual</string>
     <string name="stringBemVindo">Bem vindo ao</string>
-    <string name="stringLogin">Login</string>
+    <string name="stringLogin">Entrar</string>
     <string name="stringProx">Próximo</string>
     <string name="stringCadastro">Cadastrar-se</string>
     <string name="stringDigEmail">Digite seu e-mail</string>
@@ -12,7 +13,7 @@
     <string name="stringSenha">Sua senha</string>
     <string name="stringCasoTenhaConta">Já possui uma conta?</string>
     <string name="stringCasoNaoTenhaConta">Não possui conta?</string>
-    <string name="stringCadastroPet">Nomeie seu Pet!</string>
+    <string name="stringCadastroPet">"  Nomeie seu Pet!"</string>
     <string name="stringNomePet">Nome do Pet</string>
     <string name="stringDigNomePet">Digite o nome do seu pet</string>
     <string name="stringNotificacoes">Notificações</string>
@@ -36,7 +37,7 @@
     <string name="stringNotSono">Oi ..., seu pet está com sono, coloque ele para descansar!</string>
     <string name="stringNotBanho">Oi ..., seu pet está precisando de um banho!</string>
     <string name="stringNotDivertir">Oi ..., seu pet está precisando se divertir!</string>
-    <string name="stringMeuPerfil">Meu perfil</string>
+    <string name="stringMeuPerfil">Meu Perfil</string>
     <string name="stringPetPerfil">Perfil do Pet</string>
     <string name="stringExcluirPet">Excluir e criar novo Pet</string>
     <string name="stringSair">Sair</string>

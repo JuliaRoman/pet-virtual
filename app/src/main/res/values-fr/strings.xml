@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pet Virtual</string>
+    <string name="stringBemVindo">Bienvenue sur</string>
+    <string name="stringLogin">Se connecter</string>
+    <string name="stringProx">Suivant</string>
+    <string name="stringCadastro">S\'inscrire</string>
+    <string name="stringDigEmail">Tapez votre e-mail</string>
+    <string name="stringDigNome">Tapez votre nom</string>
+    <string name="stringDigSenha">Entrer un mot de passe</string>
+    <string name="stringEmail">E-mail</string>
+    <string name="stringNome">Votre nom</string>
+    <string name="stringSenha">Votre mot de passe</string>
+    <string name="stringCasoTenhaConta">Vous avez déjà un compte?</string>
+    <string name="stringCasoNaoTenhaConta">Vous n\'avez pas de compte?</string>
+    <string name="stringCadastroPet">Nommez votre animal virtuel!</string>
+    <string name="stringNomePet">Nom d\'animal</string>
+    <string name="stringDigNomePet">Entrez le nom de votre animal</string>
+    <string name="stringNotificacoes">Avis</string>
+    <string name="stringUser">Utilisateur</string>
+    <string name="stringIdiomas">Langues</string>
+    <string name="stringPt">Portugais</string>
+    <string name="stringIn">Anglais</string>
+    <string name="stringEs">Espagnol</string>
+    <string name="stringFr">Français</string>
+    <string name="stringIt">Italien</string>
+    <string name="stringMeuPet">Mon Animal de Compagnie Virtuel</string>
+    <string name="stringStatusFome">La faim</string>
+    <string name="stringStatusLimpeza">Nettoyage</string>
+    <string name="stringStatusDiversao">Amusement</string>
+    <string name="stringStatusSono">Sommeil</string>
+    <string name="stringStatusAlimentar">Nourrir</string>
+    <string name="stringStatusBanho">Donner une douche</string>
+    <string name="stringStatusBrincar">Joue</string>
+    <string name="stringStatusDescansar">Repos</string>
+    <string name="stringNotFome">Salut..., votre animal a faim, nourrissez-le</string>
+    <string name="stringNotSono">Salut..., votre animal a sommeil, mettez-le au repos</string>
+    <string name="stringNotBanho">Salut..., votre animal a besoin d\'un bain</string>
+    <string name="stringNotDivertir">Salut..., votre animal a besoin de s\'amuser</string>
+    <string name="stringMeuPerfil">Mon profil</string>
+    <string name="stringPetPerfil">Profil de l\'animal</string>
+    <string name="stringExcluirPet">Supprimer et créer un nouvel animal</string>
+    <string name="stringSair">Sortie</string>
+</resources>
