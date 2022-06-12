@@ -11,6 +11,143 @@
         android:layout_height="match_parent"
         android:background="@color/white">
 
+        <TextView
+            android:id="@+id/txtNomePet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/stringNomePet"
+            android:textColor="@color/tema_grey"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtMeuPerfil2" />
+
+        <EditText
+            android:id="@+id/campoNomePet2"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/rounded_background"
+            android:drawableStart="@drawable/pawprint"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/stringDigNomePet"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/tema_grey"
+            android:textColorHighlight="@color/tema_2"
+            android:textColorHint="@color/tema_grey_claro"
+            android:textColorLink="@color/tema_2"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNomePet2" />
+
+        <TextView
+            android:id="@+id/txtNomeCadastro2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/stringNome"
+            android:textColor="@color/tema_grey"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campoEmailPerfil" />
+
+        <EditText
+            android:id="@+id/campoNomeCadastro2"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/rounded_background"
+            android:drawableStart="@drawable/user"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/stringDigNome"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/tema_grey"
+            android:textColorHighlight="@color/tema_2"
+            android:textColorHint="@color/tema_grey_claro"
+            android:textColorLink="@color/tema_2"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNomeCadastro2" />
+
+        <TextView
+            android:id="@+id/txtEmailPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/stringEmail"
+            android:textColor="@color/tema_grey"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtMeuPerfil" />
+
+        <EditText
+            android:id="@+id/campoEmailPerfil"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/rounded_background"
+            android:drawableStart="@drawable/arroba"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/stringDigEmail"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/tema_grey"
+            android:textColorHighlight="@color/tema_2"
+            android:textColorHint="@color/tema_grey_claro"
+            android:textColorLink="@color/tema_2"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtEmailPerfil" />
+
+        <TextView
+            android:id="@+id/txtMeuPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="@string/stringMeuPerfil"
+            android:textColor="@color/tema_2"
+            android:textSize="34sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtMeuPerfil2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="@string/stringPetPerfil"
+            android:textColor="@color/tema_2"
+            android:textSize="34sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campoNomeCadastro2" />
+
         <ImageView
             android:id="@+id/btnIdiomaUsuario"
             android:layout_width="40dp"
@@ -20,6 +157,32 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/icn_translate" />
+
+        <TextView
+            android:id="@+id/btnCadastroFromLogin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="@string/stringExcluirPet"
+            android:textColor="@color/tema_4"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campoNomePet2" />
+
+        <TextView
+            android:id="@+id/btnCadastroFromLogin3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter_extrabold"
+            android:text="@string/stringSair"
+            android:textColor="@color/tema_4"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnCadastroFromLogin2" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
