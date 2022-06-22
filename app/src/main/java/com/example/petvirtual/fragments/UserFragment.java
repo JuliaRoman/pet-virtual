@@ -1,6 +1,7 @@
 package com.example.petvirtual.fragments;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -9,8 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.petvirtual.IdiomaActivity;
+import com.example.petvirtual.MainActivity;
 import com.example.petvirtual.R;
 
 /**
@@ -30,6 +33,7 @@ public class UserFragment extends Fragment {
     private String mParam2;
 
     private ImageView btnIdioma;
+    private TextView btnSair;
 
     protected View vista;
 
@@ -69,12 +73,21 @@ public class UserFragment extends Fragment {
                              Bundle savedInstanceState) {
         vista = inflater.inflate(R.layout.fragment_user, container, false);
         btnIdioma = (ImageView) vista.findViewById(R.id.btnIdiomaUsuario);
+        btnSair = (TextView) vista.findViewById(R.id.btnSair);
 
         btnIdioma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getContext(), IdiomaActivity.class);
                 i.putExtra("TelaAnterior", "Menu");
+                startActivity(i);
+            }
+        });
+
+        btnSair.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(), MainActivity.class);
                 startActivity(i);
             }
         });

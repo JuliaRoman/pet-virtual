@@ -79,6 +79,7 @@
         android:id="@+id/imageView4"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btnActivityLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtBemVindo3"
